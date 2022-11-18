@@ -1,0 +1,14 @@
+ /* Color */
+:root {
+  --clr-primary-blue: hsl(237, 18%, 59%);
+  --clr-primary-red: hsl(345, 95%, 68%);
+  --clr-ntrl-white: hsl(0, 0%, 100%);
+  --clr-ntrl-blue: hsl(236, 21%, 26%);
+  --clr-ntrl-dark-blue: hsl(235, 16%, 14%);
+  --clr-ntrl-deep-dark-blue: hsl(234, 17%, 12%);
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,700;1,700&display=swap');
+
+
