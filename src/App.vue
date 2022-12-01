@@ -25,6 +25,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .title {
   letter-spacing: 0.75rem;
@@ -61,5 +62,20 @@ footer img:hover {
   cursor: pointer;
   filter: invert(54%) sepia(21%) saturate(2169%) hue-rotate(303deg)
     brightness(99%) contrast(99%);
+}
+
+/* Breakpoint for tablet */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+  }
+}
+
+/* Breakpoint for mobile */
+@media (max-width: 375px) {
+  .title {
+    font-size: 0.75rem;
+  }
 }
 </style>

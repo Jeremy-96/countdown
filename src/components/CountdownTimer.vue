@@ -101,7 +101,7 @@ export default {
 
 <style scoped>
 figure {
-  width: 14%;
+  width: 20%;
   height: 50%;
   padding: 1rem;
   display: flex;
@@ -150,7 +150,7 @@ figure {
   border-radius: 0.4rem 0 0 0.4rem;
 }
 .counter-value {
-  font-size: 5.5rem;
+  font-size: 5rem;
   color: var(--clr-primary-red);
 }
 .counter-title {
@@ -162,5 +162,32 @@ figure {
   color: var(--clr-primary-blue);
   font-size: 1rem;
   letter-spacing: 0.4rem;
+}
+
+/* Breakpoint for tablet */
+@media (max-width: 768px) {
+  figure {
+    width: 25%;
+  }
+  figure .counter-value {
+    font-size: 3rem;
+  }
+  .counter-title {
+    font-size: 0.7rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+/* Breakpoint for mobile */
+@media (max-width: 375px) {
+  figure {
+    height: 40%;
+  }
+  figure .counter-value {
+    font-size: 1.5rem;
+  }
+  .counter-title {
+    font-size: 0.55rem;
+  }
 }
 </style>
