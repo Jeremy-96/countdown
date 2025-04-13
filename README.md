@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [launch-countdown-timer solution >>](https://github.com/Jeremy-96/launch-countdown-timer)
-- Live Site URL: [View the page >>](http://www.launch-countdown-timer.jeremythonon.be/)
+- Solution URL: [launch-countdown-timer solution >>](https://github.com/Jeremy-96/countdown)
+- Live Site URL: [View the page >>](http://www.countdown.jeremythonon.be/)
 
 ## My process
 
